@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/OutfitRegular.woff2") format("woff2"), url("../fonts/OutfitRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/OutfitBold.woff2") format("woff2"), url("../fonts/OutfitBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  padding: 0 27.5px;
+  background-color: hsl(212, 45%, 89%);
+}
+.code__box {
+  max-width: 320px;
+  margin: 20px auto;
+  padding: 16px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.code__img {
+  margin-bottom: 20px;
+}
+.code__img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.code__text {
+  text-align: center;
+}
+.code__text h1 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.2;
+  color: hsl(218, 44%, 22%);
+}
+.code__text p {
+  margin-bottom: 25px;
+  padding: 0 10px;
+  letter-spacing: 0.2px;
+  color: hsl(216, 15%, 48%);
+}
